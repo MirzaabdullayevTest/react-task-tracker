@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const Tasks = ({ tasks, onDelete, onRemind }) => {
     return (
         <>
-            {
-                tasks.map((task) => (
+            {tasks.length
+                ? tasks.map((task) => (
                     <Task
                         task={task}
                         key={task.id}
@@ -13,6 +13,7 @@ const Tasks = ({ tasks, onDelete, onRemind }) => {
                         onRemind={onRemind}
                     />
                 ))
+                : 'No any tasks'
             }
         </>
     )

@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "text": "Ishga borish",
+      "date": "18.12.2021 10:00",
+      "id": 2,
+      "remind": false
+    },
+    {
+      "text": "Produkta qilish",
+      "date": "06.12.2021",
+      "remind": false,
+      "id": 3
+    },
+    {
+      "text": "Kitob o'qish",
+      "date": "06.06.2021",
+      "remind": false,
+      "id": 4
+    }
+  ]
+}
